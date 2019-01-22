@@ -1,0 +1,228 @@
+#reset
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+#base
+body{overflow-x:hidden;margin:10px;}h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}h1,h2,h3,h4,h5,h6,strong,dt{font-weight:bold;}
+
+body{ color:#887a57;font-family:'Ubuntu',Sans-serif;background-color:#f7f3e7; }
+.topcontainer{ height:52px;background-color:black;color:white; }
+.top,.main,.bottom{ margin:0 auto;width:960px; }
+.bottom{ font-size:12px;padding:3em 0; }
+.top a{color:#EEE;}
+.bottom{margin:40px auto 0;}
+a{ color:#308705;cursor:pointer;text-decoration:none; }
+a:hover{ text-decoration:underline; }
+.fb{ float:right;margin:15px 5px 0;height:34px;width:580px;overflow:hidden; }
+.fb a{ display:block;float:right;margin: 0 10px; }
+
+h3,label{ padding-bottom:4px;margin:0;display:block;color:#877956;font-size:1.2em; }
+.recipe .leftcontainer h3,label{ margin-top:2em;padding:0 0 5px;font-weight:bold; }
+input,textarea{ display:block;padding:5px;margin:0.5em 0;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;border:1px solid #e3ddd1;font-size:0.9em;color:#877859; }
+.recipe input{ background-color:#308705;color:#FFF; }
+div textarea{ width:487px;resize:none; }
+#name{width:525px;}
+a.b{ display:block;padding:3px 5px;font-size:large;font-weight:bold;border:2px solid #335;background-color:#EEF;color:#335;float:left;text-decoration:none;margin:1em; }
+.credit{ margin-bottom:1em; }
+.msg{ font-size:80%;color:#c1baa8; }
+
+.homepage{ width:960px;position:relative; }
+.createcontainer{ width:960px;position:relative; }
+.rightcontainer{ width:400px;top:0px;margin-left:580px;position:absolute; }
+.recipe .rightcontainer{ top:0px; }
+.recipe .rightbody{ height:auto; }
+.leftcontainer{ width:540px; }
+.recipe .rightnav{ height:10px; }
+.rightnav{ height:35px; }
+.rightnav { padding-left:10px; }
+.rightnav li{ list-style-type:none;float:left;margin-bottom:-1px; }
+.rightnav li a{ display:block;cursor:pointer;font-size:14px;font-weight:bold;width:146px;padding:5px 0;text-align:center;height:26px;margin:0 5px 0 0;text-decoration:none;background:url('http://recipelabs.s3.amazonaws.com/layout/tabu.png');color:#c0bba5; }
+.rightnav li a:hover{ color:#887958; }
+.rightnav li a.active{ background:url('http://recipelabs.s3.amazonaws.com/layout/tabs.png');color:#887958; }
+.rightbody{ border:1px solid #c9c2b0;height:500px; padding:15px;overflow:auto;color:#867756;border:1px solid #c9c2b0;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background-color:#fcfbf6; }
+.rightbody div{ display:none; }
+.rightbody div div{ display:block; }
+.rightbody div.active{ display:block; }
+.rightbody a.external{ color:#c1baa8;font-size:60%; }
+.rightbody .links{ color:#d0caba;text-align:right; }
+
+.notlogged{ background-color:#c1baa8;color:#FFF;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;display:block;padding:10px;text-align:center;margin-top:2em; }
+.notlogged a{ color:#FFF; }
+
+.ingheading{border-bottom:2px solid #e3ddd1;height:18px;padding-top:8px;}
+.ingheading div{ width:165px;color:#c1baa8;font-size:0.8em;float:left; }
+.ingredients li{ height:45px;border-bottom:1px dashed #e1ddd1; }
+.ingredients input, .ingredients a{ float:left;margin-bottom:0; }
+.ingredients .add{ display:block;margin:0.6em 0 0 10px; }
+.ingredients .name{ margin-left:10px;width:325px; }
+.ingredients .quantity{ width:140px; }
+.ingredients .notactive input{ border-color:transparent;background-color:transparent; }
+.instructions .notactive textarea{ border-color:transparent;background-color:transparent; }
+
+#help-wrapper{ padding:0 0 1em;min-height:100px; }
+#help-wrapper .help-box{ margin-top:20px; }
+#help-wrapper .help-box img{ top:10px; }
+.suggestion-wrapper{ display:none;padding:2em 0;min-height:100px; }
+#help-wrapper img,.suggestion-wrapper img{ float:left; }
+.help-box,.suggestion-box{ float:left;background-color:#fbf8f3;border:1px solid #e3ddd1;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;color:#867956;width:430px;padding:15px;padding-left:0;margin-left:15px;margin-bottom:20px; }
+.help-box img,.suggestion-box img{ z-index:6;position:relative;left:-20px;top:30px; }
+#suggestions input{ display:inline; margin-top:5px;margin-bottom:0; }
+.sugadd{ color:#FFF;background-color:#308705;border:0;}
+#help,#suggestions{ padding:5px 0 0 25px; }
+#suggestions a{ font-size:80%;font-weight:bold; }
+
+#instructions li{ border-bottom:1px solid #e1ddd1;padding:5px 0 10px;height:auto; }
+#instructions textarea, #instructions a{ float:left;margin-bottom:0; }
+#instructions a{ margin:10px 0 0 10px; }
+
+.terms{ padding:10px 0; }
+.terms,.terms a{ font-size:12px;color:#c1baa8; }
+.submitreset{ text-align:center; }
+.submitreset a{ font-weight:bold;font-size:12px;display:block; }
+
+#simb li{ padding:10px 0;border-bottom:1px dashed #e1ddd1;}
+#simb li b span{ display:inline; }
+#simb span{ font-size:85%;display:block; }
+#simb span a{ font-size:85%;font-weight:bold; }
+
+.nutrition{ line-height:1em;font-family:arial,sans-serif; }
+.nutrition h4{ padding:4px 0;font-size:12px; }
+.nutrition ul{ border-top:6px solid #e1dccf; }
+.nutrition li{ float:none;margin:0;height:16px;font-size:12px;padding:2px 0;border-bottom:1px solid #e1dccf; }
+.nutrition li.sub{ font-weight:normal;margin-left:7px; }
+.nutrition li span{ float:right; }
+.basedon{ font-size:10px;margin-top:1em; }
+.percentdaily{ font-size:8px;margin-top:1em; }
+.nutrition .smaller{ font-size:10px; }
+.nutrition .servings{ line-height:16px;margin:5px 0; }
+
+.recipetitle{ font-weight:bold;font-size:30px;padding-top:25px;font-family:'Ubuntu Condensed'; }
+.createdby{ font-size:16px; }
+.createdby a{ font-weight:bold; }
+
+.imgcontainer{ padding:9px;border:1px solid #c9c2b0;background-color:#FFF;width:520px;margin-top:10px;position:relative; }
+
+.recipe ul{ border-top:2px solid #e3ddd1;margin-bottom:20px; }
+.recipe ol{ border-top:2px solid #e3ddd1;margin-bottom:20px; }
+.homepage h3,.recipe h3{ font-family:'Ubuntu Condensed'; }
+.recipe .ingredients li{ list-style-type:none;border-bottom:1px dashed #e2ded2;margin:0;padding:5px 0;height:auto;padding-left:16px;background:url('http://recipelabs.s3.amazonaws.com/layout/arrowright.png') 0px 10px no-repeat; }
+.recipe ol li{ list-style-type:none;border-bottom:1px dashed #e2ded2;margin:0;padding:5px 0;height:auto; }
+.recipe ol li .ins-num{ float:left;padding:10px 18px 10px 2px;background:url('http://recipelabs.s3.amazonaws.com/layout/directionscircle.png') 3px 6px no-repeat;text-align:center;font-size:22px;font-family:'Ubuntu Condensed';color:#FFF;font-weight:bold;width:35px; }
+.recipe ol li .dir{ float:left;width:450px; }
+.recipe ol li{ margin-bottom:5px;line-height:1.4em; }
+.blockUI{ text-align:center;padding:20px; }
+.blockUI h3{ margin-top:20px; }
+div input.submit{background-color:#308705;color:#FFF;margin-bottom:20px;width:150px;border:0;cursor:pointer;font-weight:bold;}
+.blockUI input{margin:0.5em auto;width:300px;border:0;}
+.button{ background-color:#308705;color:#FFF;cursor:pointer;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;display:block;text-align:center;padding:10px 0;font-weight:bold;font:'Ubuntu Condensed'; }
+.customize{ width:320px;margin:0 auto; }
+
+
+.recipelist .title{ display:block; }
+.recipelist .timestamp{ color:#999;float:right;display:block; }
+.recipelist .user{ float:right;display:block;margin-left:5px; }
+.recipelist li{ border-top: 1px dotted #CCCCCE;overflow: hidden;    padding: 3px 0 5px 0;    position: relative;}
+
+.sharestuff{ margin-top:20px; }
+
+
+.homepage .rightcontainer h3{ margin-top:2em; }
+.homepage #suggestions a{ font-size:30px;font-family:'Ubuntu Condensed';display:block;font-weight:bold; }
+.homepage #suggestions{ font-size:20px; }
+.imgcontainer .imgover{ opacity:0.7;filter:alpha(opacity=70);background-color:#333; width:200px;padding:10px;position:absolute;top:10px;color:#FFF;-webkit-border-bottom-right-radius: 5px;-moz-border-radius-bottomright: 5px;border-bottom-right-radius: 5px; }
+.imgcontainer .imgover div{ overflow:hidden;width:200px;height:20px;font-family:'Ubuntu Condensed'; }
+.imgcontainer .imgover div.title{ font-weight:bold; }
+.homepage .imgcontainer{ margin-bottom:2em;display:block; }
+//original css
+#col_one {
+float: left;
+width:25%;
+height:185px;
+background-color: #eeeeee;
+padding: 10px;
+    margin-left: 0;
+    margin-top: 55px;
+    margin-right: 25px;
+    margin-bottom: 42px;
+
+}
+
+fieldset {
+    display: inline-block;
+    margin-inline-start: 2px;
+	margin-top:20px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+textarea {
+	margin: .4rem;
+}
+
+select {
+	margin: .4rem;
+}
+
+
+
+input {
+    margin: .4rem;
+}
+
+.animated-search-form[type=search] {
+  width: 10rem;
+  border: 0.125rem solid #e6e6e6;
+  box-shadow: 0 0 3.125rem rgba(0, 0, 0, 0.18);
+  border-radius: 0;
+  background-image: url("//image.ibb.co/i7NbrQ/search_icon_15.png");
+  background-position: 0.625rem 0.625rem;
+  background-repeat: no-repeat;
+  padding: 0.75rem 1.25rem 0.75rem 2rem;
+  transition: width 0.4s ease-in-out;
+}
+
+.animated-search-form[type=search]:focus {
+  width: 100%;
+}
+
+#uglyform { margin-top:25px;
+margin-left:350px;
+
+
+}
+
+h2 { text-align:center;
+
+}
+
+#menuheading { margin-left:50px;
+}
+
+h3 { text-align:center;
+
+}
+
+
+th {
+font-weight: bold;
+text-align: left;
+
+
+
+}
+
+#container { width: 1000px;
+margin: 20px auto 40px;
+}
+#col_two{
+padding: 10px;
+width:100%;
+margin-left:25px;
+
+}

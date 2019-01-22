@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head><title>Puppy Recipes </title>
+
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+  <link href="/PuppyRecipes/puppy.css" type="text/css" media="screen" rel="stylesheet">
+  <link rel="shortcut icon" href="http://recipelabs.s3.amazonaws.com/layout/favicon.ico" type="image/x-icon">
+</head>
+
+<body><div id="container">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src="http://FixURLtoGithub/PuppyPef.js"></script>
+
+<div id="hstyle">
+<h1>Welcome to Puppy Recipe Finder</h1>
+<h2>Stuff</h2>
+</div>
+
+<div id="col_one">
+
+ <nav>
+        <ul>
+          <li><a href='/index.html'>Home</a></li>
+          <li><a href='/about.html'>About</a></li>
+          <li><a href='/contact.html'>Contact</a></li>
+          <li><a href='#menuSection'>Menu</a></li>
+   	 <li><a href='#reservationSection'>Reservations</a></li>    
+        </ul>
+      </nav>
+
+
+
+</div>
+
+<div id="col_two">
+
+
+<table cellpadding="10px">
+<thead><tr><th></th><th>Food</th><th>Description</th><th>Price</th></tr></thead>
+<tbody id="menuSection">
+
+<tr><td><img src="https://s3.amazonaws.com/bloc-foo/salad.jpg"width=135pixels alt="cobb salad"></td><td>Salad</td><td>Delicious Cobb Salad</td><td>$7.99</td></tr>
+<tr><td><img src="https://s3.amazonaws.com/bloc-foo/hamburger.jpg"width=135pixels alt="hamburger"></td><td>Burger</td><td>1/4 lb grass-fed burger with choice of cheese</td><td>$6.99</td></tr>
+<tr><td><img src="https://s3.amazonaws.com/bloc-foo/chicken_salad_sandwich.jpg"width=135pixels alt="chicken salad sandwich"></td><td>Chicken Salad Sandwich</td><td>Our world famous chicken salad on a bagel with homemade pickles</td><td>$8.99</td></tr>
+<tr><td><img src="https://s3.amazonaws.com/bloc-foo/buffalo_chicken_sandwich.jpg"width=135pixels alt="Buffalo Chicken Sandwich"></td><td>Buffalo Chicken Sandwich</td><td>Spicy fried chicken on a brioche bun</td><td>$10.99</td></tr>
+<tr><td><img src="https://s3.amazonaws.com/bloc-foo/fries.jpeg"width=135pixels alt="fries"></td><td>Fries</td><td>Hand cut potatoes lightly fried and seasoned</td><td>$1.99</td></tr>
+<tr><td><img src="https://s3.amazonaws.com/bloc-foo/soda.jpeg
+"width=135pixels alt="soda"></td><td>Soda</td><td>Regular, diet, orange, or root beer</td><td>$1.00</td></tr>
+
+</tbody>
+
+</table>
+<div id="uglyform">
+
+<section id='reservationSection'>
+      <form action="form.php" method="post">
+<fieldset>
+<legend>Reservation Form</legend>
+
+<label for="firstnameInput">First Name</label>
+<input type="text" id="firstnameInput"><br>
+
+<label for="lastnameInput">Last Name </label>
+<input type="text" id="lastnameInput"><br>
+
+<label for="phoneInput">Phone Number</label>
+<input type="text" id="phoneInput"><br>
+
+<label for="emailInput">Email Address</label>
+<input type="email" id="emailInput"><br>
+
+<label for="time">Select time</label>
+<select name="time">
+<option value="10am">10:00 a.m.</option>
+<option value="11am"selected>11:00 a.m.</option>
+<option value="12pm">12:00 p.m.</option>
+<option value="2pm">2:00 p.m.</option>
+<option value="4pm">4:00 p.m.</option>
+</select><br>
+<label for="textarea">Comments</label><br>
+<textarea cols="50" rows="3">enter comments here</textarea><br>
+
+
+<input type="submit" value="Submit">
+
+</fieldset>
+
+</form>
+
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
