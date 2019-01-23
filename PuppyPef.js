@@ -1,5 +1,5 @@
 let url = "https://cors-anywhere.herokuapp.com/http://recipepuppy.com/api";
-
+document.write("is this ever gonna work?");
 fetch(url)
   .then(r => {
   console.log(data);
